@@ -30,8 +30,7 @@ export default function ContactPage() {
     <div
       className="container-fluid text-white"
       style={{
-        minHeight: "100vh",
-        backgroundImage: 'url("/images/contact-bg.jpg")', // keep your image here
+        minHeight: "100vh", // keep your image here
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
@@ -47,7 +46,7 @@ export default function ContactPage() {
       >
         <h2 className="text-center fw-bold mb-3">📞 Contact Us</h2>
         <p className="text-center text-light">
-          Have a question, feedback, or issue? We'd love to hear from you!  
+          Have a question, feedback, or issue? We&apos;d love to hear from you!  
           Fill out the form below and our team will respond as soon as possible.
         </p>
 
